@@ -1,0 +1,169 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilisateurs</title>
+      <!--bootstrap-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!-- fontawesome-->
+      <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+  
+      <script src="https://kit.fontawesome.com/d046b41136.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.ckeditor.com/ckeditor5/33.0.0/classic/ckeditor.js"></script>
+</head>
+<body>
+    <div class="container-fluid bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">AdminBoard</a>
+                <button class="navbar-toggler ml-auto" data-bs-toggle="collapse" data-bs-target="#NavbarContent">
+                    <span class="navbar-toggler-icon">
+                </button>
+                <div class="collapse navbar-collapse" id="NavbarContent">
+                    <ul class="navbar-nav nav">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Postes.html" class="nav-link">Postes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="categories.html" class="nav-link">Catégories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="users.html" class="nav-link">Utilisateurs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigation_right">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a href="#" role="button" class="nav-link dropdown-toggle" id="dropdown-menu-button" data-bs-toggle="dropdown" aria-expanded="false"> welcome Abakensis</a>
+                            <div class="dropdown-menu" aria-labelledby="#dropdown_link">
+                                <a href="profil.html" class="dropdown-item"> <i class="fas fa-user-circle fa-2X"></i> Profil</a>
+                                <a href="setings.html" class="dropdown-item"> <i class="fas fa-cog fa-2x"></i> Parametres</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ml-2">
+                            <a href="" class="nav-link"> <i class="fas fa-user-alt-slash"></i> Log-Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid bg-warning">
+        <div class="container bg-warning text-white pt-2 pb-2">
+       <h2> <i class="fas fa-users"></i> utilisateurs </h2>
+        </div>
+        </div>
+
+        <div class="container">
+
+ 
+            <div class="row mb-3 mt-3">
+         
+         
+                 <div class="col-lg-10">
+                     
+                         <div class="input-group ">
+                             <input type="text" class="form-control" placeholder="search" aria-label="search" aria-describedby="button-addon2">
+                             <button class="btn btn-warning" type="button" id="button-addon2">search</button>
+                           </div>
+                    </div>          
+                     </div>
+                     </div> 
+
+        <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:100%;">
+                    <div class="card-header">
+                        <h3 class="card-title">Les utilisateurs</h3>
+                    </div>
+                    
+                    <div class="card-body p-0">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">
+                                        <p>Nom</p>
+                                    </th>
+                                    <th scope="col">
+                                        <p>Prénom</p>
+                                    </th>
+                                    <th scope="col">
+                                        <p>Mail</p>
+                                    </th>
+                                    <th scope="col">
+                                        <p>details</p>
+                                    </th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="bg-light">
+                                    <td>Sidi</td>
+                                    <td> Kelifa</td>
+                                    <td>ab.kelifa01@gmail.com</td>
+        
+                                    <td>
+                                        <a href="Postes.html"  role="button" class="btn btn-sm btn-dark bg-dark"><i class="fas fa-angle-double-right"></i> Détails</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td >GOJO</td>
+                                    <td>Satoru</td>
+                                    <td>bebouweeeee@béébou.com</td>
+                                  
+                                    <td>
+                                        <a href="Postes.html"  role="button" class="btn btn-sm btn-dark bg-dark"><i class="fas fa-angle-double-right"></i> Détails</a>
+                                    </td>
+                                </tr>
+                               
+                            </tbody>
+                        </table>
+                     </div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="container-fluid bg-dark text-white text-center  pb-1 pt-2 fixed-bottom">
+                <p> &copyright      @Abakensis 2022</p>
+         
+             </div>     
+             </footer>
+             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </body>
+    </html>
